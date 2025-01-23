@@ -55,7 +55,7 @@ module.exports = {
   SUDO: process.env.SUDO || '+94759554531',
   AUTH_FILE: process.env.AUTH_FILE,
   DISABLE_PM: toBool(process.env.DISABLE_PM || "false"),
-  DISABEL_GRP: toBool(process.env.DISABEL_GRP || "false"),
+  DISABLE_GRP: toBool(process.env.DISABLE_GRP || "false"),
   STATUS_REPLY: toBool(process.env.STATUS_REPLY || "false"),
   STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "*Nice Status Brother 🦫✨*",
   KICK_BLOCK: toBool(process.env.KICK_BLOCK || "false"),
